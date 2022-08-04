@@ -12,3 +12,5 @@ sudo amazon-linux-extras install java-openjdk11 -y
 sudo yum install jenkins -y
 sudo systemctl daemon-reload
 sudo systemctl start jenkins
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
